@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <input type="text" class="input" onkeydown="keyPress(this)">
+
+    <div class="keyboard">
+        <div class="keyboard-row fn">
+            <div class="key space">Esc</div>
+            <div class="key">F1</div>
+            <div class="key">F2</div>
+            <div class="key">F3</div>
+            <div class="key">F4</div>
+            <div class="key space">F5</div>
+            <div class="key">F6</div>
+            <div class="key">F7</div>
+            <div class="key">F8</div>
+            <div class="key space">F9</div>
+            <div class="key">F10</div>
+            <div class="key">F11</div>
+            <div class="key">F12</div>
+        </div>
+        <div class="keyboard-row num">
+            <div class="key">
+                ~<br>`
+            </div>
+            <div class="key">
+                !<br>1
+            </div>
+            <div class="key">
+                @<br>2
+            </div>
+            <div class="key">
+                #<br>3
+            </div>
+            <div class="key">
+                $<br>4
+            </div>
+            <div class="key">
+                %<br>5
+            </div>
+            <div class="key">
+                ^<br>6
+            </div>
+            <div class="key">
+                &<br>7
+            </div>
+            <div class="key">
+                *<br>8
+            </div>
+            <div class="key">
+                (<br>9
+            </div>
+            <div class="key">
+                )<br>0
+            </div>
+            <div class="key">
+                _<br>-
+            </div>
+            <div class="key">
+                +<br>=
+            </div>
+            <div class="key">Backspace</div>
+        </div>
+
+        <div class="keyboard-row letter">
+            <div class="key" >Tab</div>
+            <div class="key">Q</div>
+            <div class="key">W</div>
+            <div class="key">E</div>
+            <div class="key">R</div>
+            <div class="key">T</div>
+            <div class="key">Y</div>
+            <div class="key">U</div>
+            <div class="key">I</div>
+            <div class="key">O</div>
+            <div class="key">P</div>
+            <div class="key">[</div>
+            <div class="key">]</div>
+            <div class="key">\</div>
+        </div>
+        <div class="keyboard-row letter-2">
+            <div class="key">Caps Lock</div>
+            <div class="key">A</div>
+            <div class="key">S</div>
+            <div class="key">D</div>
+            <div class="key">F</div>
+            <div class="key">G</div>
+            <div class="key">H</div>
+            <div class="key">J</div>
+            <div class="key">K</div>
+            <div class="key">L</div>
+            <div class="key">
+                :<br>;
+            </div>
+            <div class="key">
+                "<br>'
+            </div>
+            <div class="key">Enter</div>
+        </div>
+        <div class="keyboard-row letter-3">
+            <div class="key" onclick="hasShift(this)">Shift</div>
+            <div class="key">Z</div>
+            <div class="key">X</div>
+            <div class="key">C</div>
+            <div class="key">V</div>
+            <div class="key">B</div>
+            <div class="key">N</div>
+            <div class="key">M</div>
+            <div class="key">,</div>
+            <div class="key">.</div>
+            <div class="key">/</div>
+            <div class="key">Shift</div>
+        </div>
+        <div class="keyboard-row bottom">
+            <div class="key">Ctrl</div>
+            <div class="key">fn</div>
+            <div class="key">cmd</div>
+            <div class="key">alt</div>
+            <div class="key space-key"> </div>
+            <div class="key">alt</div>
+            <div class="key">cmd</div>
+            <div class="key">ctrl</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
